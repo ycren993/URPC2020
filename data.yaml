@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['echinus', 'holothurian', 'scallop', 'starfish', 'waterweeds']
+
+roboflow:
+  workspace: yolo-fucdz
+  project: urpc-alhhr
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-fucdz/urpc-alhhr/dataset/1
